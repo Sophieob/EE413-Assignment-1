@@ -14,4 +14,11 @@ We built a robotic system and packaging cell around the UR5e robot arm using a R
 | Yellow blocks        | Under-ripe produce              |
 | Blue blocks          | Rotten or damaged produce       |
 | Other colour         | Unknown (HRI requirement)       |
+| Conveyer             | Packaging environment transfer line |
+| Stacks at different positions| Palletising by grade |
+| Inspection station   | Manual quality check location |
 
+The camera's colour detection will tell the robot the quality grade and it's depth information will tell it the items shape and height. The robot will then be able to pick up an item from the mixed grade pile and move it along the conveyer and stack it in the correct pallet for its grade. 
+
+### Inclusive Design
+Because the robot does the lifting, reaching and stacking, the operator's role is entirely  seated with no physical effort required. Therefore, quality inspection could be done by older workers, people with limited mobility or strength, or anyone for whom standing packaging work isn't possible. 
