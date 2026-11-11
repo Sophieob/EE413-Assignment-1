@@ -1,0 +1,22 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*secret*
+*credentials*
+
+# Local test output
+d405_view.png
+*.logo
+
+.vscode/
+local_config.py
