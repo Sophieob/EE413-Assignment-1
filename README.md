@@ -9,7 +9,7 @@ After harvest, fresh produce must be sorted by quality before it can be packed a
 We built a robotic system and packaging cell around the UR5e robot arm using a RealSense depth camera which watches a mixed pile of incoming produce and the robot sorts each item by quality grade (colour) and stacks it in its own pallet position. 
 
 | In our demonstration | In a real packaging environment |
-|--------------------------------------------------------|
+|----------------------|---------------------------------|
 | Red blocks           | Ripe produce                    |
 | Yellow blocks        | Under-ripe produce              |
 | Blue blocks          | Rotten or damaged produce       |
