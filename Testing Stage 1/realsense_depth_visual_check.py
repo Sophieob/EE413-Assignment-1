@@ -11,7 +11,7 @@ def main():
     started = False
 
     try:
-        print("Starting Intel RealSense D415...", flush=True)
+        print("Starting Intel RealSense camera...", flush=True)
 
         config.enable_stream(
             rs.stream.color, 640, 480, rs.format.bgr8, 30
@@ -21,6 +21,9 @@ def main():
         )
 
         profile = pipeline.start(config)
+        device = profile.get_device()
+        camera_name = device.get_info(rs.camera_info.name)
+        print(f"Connected camera: {camera_name}", flush=True)
         started = True
 
         align = rs.align(rs.stream.color)

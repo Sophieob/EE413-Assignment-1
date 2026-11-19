@@ -50,6 +50,6 @@ SORTING_RULES = {
 
 # Keep false until the home path, tool/TCP, workspace, and camera-to-robot
 # transform have been verified under supervision.
-AUTOMATIC_MOTION_ENABLED = True
+AUTOMATIC_MOTION_ENABLED = False 
 AUTO_HOME_ON_START = False
 AUTO_HOME_ON_EXIT = False
